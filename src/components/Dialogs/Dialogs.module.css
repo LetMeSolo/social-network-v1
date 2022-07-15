@@ -1,0 +1,16 @@
+.dialogs_container {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.dialogs_items {
+
+}
+
+.dialog_item {
+
+}
+
+.dialogs_messages {
+
+}

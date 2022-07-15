@@ -1,0 +1,22 @@
+.header {
+    grid-area: header;
+
+    background-color: #98b9f6;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    display: flex;
+    align-items: center;
+}
+.social_logo {
+    margin-left: 15px;
+    width: 48px;
+}
+
+.social_Name {
+    font-family: Righteous, serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}

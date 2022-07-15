@@ -1,0 +1,43 @@
+.navBar {
+    grid-area: nav;
+}
+
+.navBar_item {
+    margin: 15px 0;
+    width: 80%;
+    height: 30px;
+    font-family: "Kanit", sans-serif;
+}
+
+.icon_img {
+    margin-right: 5px;
+    width: 18px;
+}
+
+.navBar_item a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+
+    transition: .2s ease-in-out;
+}
+
+.navBar_item a:hover {
+    background-color: #98b9f6;
+    transform: translate(-5px, -3px);
+    border-radius: 5px;
+    color: white;
+}
+
+.navBar_item a.selected {
+    background-color: #98b9f6;
+    transform: translate(-5px, -3px);
+    border-radius: 5px;
+    color: white;
+}
+
